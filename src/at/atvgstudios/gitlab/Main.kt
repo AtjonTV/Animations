@@ -4,7 +4,7 @@ import at.atvgstudios.gitlab.app.Fern.Fern
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
 import at.atvgstudios.gitlab.app.DPendulum.DPendulum
 import at.atvgstudios.gitlab.app.PurpleRain.PurpleRain
-import at.atvgstudios.gitlab.app.Spirograph.Spirograph
+import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
 import at.atvgstudios.gitlab.app.Starfield.Starfield
 import processing.core.PApplet
 
@@ -55,8 +55,8 @@ fun launch(name: String)
             var anim = Fern()
             PApplet.runSketch(arrayOf("Fern"), anim)
         }
-        "Spirograph" -> {
-            var anim = Spirograph()
+        "RSpirograph" -> {
+            var anim = RSpirograph(true)
             PApplet.runSketch(arrayOf("Spirograph"), anim)
         }
         else -> {
@@ -73,14 +73,14 @@ fun printInfo()
     println("+----------------------------------+")
     println("|  2D Animations using Processing  |")
     println("+----------------------------------+")
-    println("| This application contains 5      |")
+    println("| This application contains 6      |")
     println("| animations that have been        |")
     println("| translated from Java to Kotlin   |")
     println("+----------------------------------+")
     println("| Java-Developer: Daniel Shiffman  |")
     println("| Kt-Developer: Thomas Obernosterer|")
     println("+----------------------------------+")
-    println("| Version: 18.7.27                 |")
+    println("| Version: 18.7.28                 |")
     println("| License: MIT (Open Source)       |")
     println("+----------------------------------+")
     println("| Kotlin:          v1.2.51         |")
@@ -94,12 +94,12 @@ fun printAnims()
 {
     println("Available Animations:")
     print("")
-    println("+------------+")
-    println("| PurpleRain |")
-    println("| Starfield  |")
-    println("| Lorenz     |")
-    println("| DPendulum  |")
-    println("| Fern       |")
-    //println("| Spirograph |")
-    println("+------------+")
+    println("+-------------+")
+    println("| PurpleRain  |")
+    println("| Starfield   |")
+    println("| Lorenz      |")
+    println("| DPendulum   |")
+    println("| Fern        |")
+    println("| RSpirograph |")
+    println("+-------------+")
 }
