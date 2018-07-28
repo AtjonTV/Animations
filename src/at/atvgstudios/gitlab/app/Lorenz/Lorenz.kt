@@ -21,10 +21,10 @@ class Lorenz : PApplet() {
     }
 
     override fun draw() {
-        var dt = 0.01f
-        var dx = (a * (y-x)) * dt
-        var dy = (x * (b-z) - y) * dt
-        var dz = (x * y - c*z) * dt
+        val dt = 0.01f
+        val dx = (a * (y - x)) * dt
+        val dy = (x * (b - z) - y) * dt
+        val dz = (x * y - c * z) * dt
         x += dx
         y += dy
         z += dz
@@ -33,7 +33,5 @@ class Lorenz : PApplet() {
         scale(5f)
         stroke(255)
         point(x,y)
-
-        println("$x, $y, $z")
     }
 }

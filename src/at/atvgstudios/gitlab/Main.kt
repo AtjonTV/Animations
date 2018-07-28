@@ -1,8 +1,8 @@
 package at.atvgstudios.gitlab
 
+import at.atvgstudios.gitlab.app.DPendulum.DPendulum
 import at.atvgstudios.gitlab.app.Fern.Fern
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
-import at.atvgstudios.gitlab.app.DPendulum.DPendulum
 import at.atvgstudios.gitlab.app.PurpleRain.PurpleRain
 import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
 import at.atvgstudios.gitlab.app.Starfield.Starfield
@@ -19,15 +19,17 @@ fun main(args: Array<String>)
     {
         printAnims()
 
-        println("\nEnter a Animation name to launch or type exit")
-        print("> ")
-        var inp = readLine()
+        PApplet.runSketch(arrayOf("AnimationsUi"), AnimationsUi())
 
-        if (inp != null) {
-            if(inp == "exit")
-                System.exit(0)
-            launch(inp)
-        }
+//        println("\nEnter a Animation name to launch or type exit")
+//        print("> ")
+//        var inp = readLine()
+//
+//        if (inp != null) {
+//            if(inp == "exit")
+//                System.exit(0)
+//            launch(inp)
+//        }
     }
 }
 
@@ -80,12 +82,13 @@ fun printInfo()
     println("| Java-Developer: Daniel Shiffman  |")
     println("| Kt-Developer: Thomas Obernosterer|")
     println("+----------------------------------+")
-    println("| Version: 18.7.28                 |")
+    println("| Version: 18.7.28.2               |")
     println("| License: MIT (Open Source)       |")
     println("+----------------------------------+")
     println("| Kotlin:          v1.2.51         |")
     println("| Java JVM:        v${System.getProperty("java.version").split("_")[0]}          |")
-    println("| Processing Core: v3.3.7          |")
+    println("| Processing Core: v3.4            |")
+    println("| ControlP5:       v2.2.6          |")
     println("+----------------------------------+")
     println("")
 }
