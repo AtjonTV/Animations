@@ -5,8 +5,29 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * The type Utils.
+ * @author Thomas Obernosterer
+ * @since 18.7.28.2
+ */
 public class Utils {
 
+    /**
+     * Gets version.
+     *
+     * @return the version
+     */
+    public static String getVersion() {
+        return "18.7.29";
+    }
+
+    /**
+     * Gets file.
+     *
+     * @param classAny the class any
+     * @param fileName the file name
+     * @return the file
+     */
     public static String getFile(Class classAny, String fileName) {
         //Get file from resources folder
         ClassLoader classLoader = classAny.getClassLoader();

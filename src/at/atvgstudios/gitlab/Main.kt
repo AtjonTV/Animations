@@ -8,58 +8,57 @@ import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
 import at.atvgstudios.gitlab.app.Starfield.Starfield
 import processing.core.PApplet
 
-fun main(args: Array<String>)
-{
+/**
+ * Application Main
+ * @author Thomas Obernosterer
+ * @since 18.7.27
+ * @param args Console Arguments
+ */
+fun main(args: Array<String>) {
     printInfo()
-    if(args.isNotEmpty() && args.size == 1)
-    {
+    if (args.isNotEmpty() && args.size == 1) {
         launch(args[0])
-    }
-    else
-    {
+    } else {
         printAnims()
 
-        PApplet.runSketch(arrayOf("AnimationsUi"), AnimationsUi())
+        println("\nEnter a Animation name to launch or type exit")
+        print("> ")
+        val inp = readLine()
 
-//        println("\nEnter a Animation name to launch or type exit")
-//        print("> ")
-//        var inp = readLine()
-//
-//        if (inp != null) {
-//            if(inp == "exit")
-//                System.exit(0)
-//            launch(inp)
-//        }
+        if (inp != null) {
+            if (inp == "exit")
+                System.exit(0)
+            launch(inp)
+        }
     }
 }
 
-fun launch(name: String)
-{
-    when(name)
-    {
+/**
+ * Launches a Animation by Name
+ * @param name Name of the Animation
+ */
+fun launch(name: String) {
+    when (name) {
         "PurpleRain" -> {
-            var anim = PurpleRain()
-            PApplet.runSketch(arrayOf("PurpleRain"), anim)
+            PApplet.runSketch(arrayOf("PurpleRain"), PurpleRain())
         }
         "Starfield" -> {
-            var anim = Starfield()
-            PApplet.runSketch(arrayOf("Starfield"), anim)
+            PApplet.runSketch(arrayOf("Starfield"), Starfield())
         }
         "Lorenz" -> {
-            var anim = Lorenz()
-            PApplet.runSketch(arrayOf("Lorenz"), anim)
+            PApplet.runSketch(arrayOf("Lorenz"), Lorenz())
         }
         "DPendulum" -> {
-            var anim = DPendulum()
-            PApplet.runSketch(arrayOf("DPendulum"), anim)
+            PApplet.runSketch(arrayOf("DPendulum"), DPendulum())
         }
         "Fern" -> {
-            var anim = Fern()
-            PApplet.runSketch(arrayOf("Fern"), anim)
+            PApplet.runSketch(arrayOf("Fern"), Fern())
         }
         "RSpirograph" -> {
-            var anim = RSpirograph(true)
-            PApplet.runSketch(arrayOf("Spirograph"), anim)
+            PApplet.runSketch(arrayOf("Spirograph"), RSpirograph(true))
+        }
+        "-ui" -> {
+            PApplet.runSketch(arrayOf("AnimationsUi"), AnimationsUi())
         }
         else -> {
             println("Unknown Animation '$name'!")
@@ -69,8 +68,10 @@ fun launch(name: String)
     }
 }
 
-fun printInfo()
-{
+/**
+ * Prints information about the application
+ */
+fun printInfo() {
     println("")
     println("+----------------------------------+")
     println("|  2D Animations using Processing  |")
@@ -82,7 +83,12 @@ fun printInfo()
     println("| Java-Developer: Daniel Shiffman  |")
     println("| Kt-Developer: Thomas Obernosterer|")
     println("+----------------------------------+")
-    println("| Version: 18.7.28.2               |")
+    when {
+        Utils.getVersion().length == 6 -> println("| Version: ${Utils.getVersion()}                  |")
+        Utils.getVersion().length == 7 -> println("| Version: ${Utils.getVersion()}                 |")
+        Utils.getVersion().length == 8 -> println("| Version: ${Utils.getVersion()}                |")
+        Utils.getVersion().length == 9 -> println("| Version: ${Utils.getVersion()}               |")
+    }
     println("| License: MIT (Open Source)       |")
     println("+----------------------------------+")
     println("| Kotlin:          v1.2.51         |")
@@ -93,8 +99,10 @@ fun printInfo()
     println("")
 }
 
-fun printAnims()
-{
+/**
+ * Prints a list of Animation names
+ */
+fun printAnims() {
     println("Available Animations:")
     print("")
     println("+-------------+")

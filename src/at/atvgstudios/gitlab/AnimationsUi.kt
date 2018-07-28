@@ -10,15 +10,26 @@ import controlP5.ControlP5
 import processing.core.PApplet
 import processing.core.PFont
 
+/**
+ * Contains the Animation UI
+ * @author Thomas Obernosterer
+ * @since 18.7.28.2
+ */
 class AnimationsUi : PApplet() {
 
     private lateinit var control: ControlP5
     private lateinit var font: PFont
 
+    /**
+     * Set window size to 400x400
+     */
     override fun settings() {
         size(400, 400)
     }
 
+    /**
+     * Generate UI (Buttons and their Actions)
+     */
     override fun setup() {
         font = createFont(Utils.getFile(javaClass, "/res/Sawasdee.ttf"), 32f)
         control = ControlP5(this)
@@ -50,7 +61,7 @@ class AnimationsUi : PApplet() {
                 }
         control.addButton("Lorenz")
                 .setPosition(155f, 140f)
-                .setSize(90, 40)
+                .setSize(80, 40)
                 .onClick {
                     runSketch(arrayOf("Lorenz"), Lorenz())
                 }
@@ -62,6 +73,9 @@ class AnimationsUi : PApplet() {
                 }
     }
 
+    /**
+     * Draw labels on the UI
+     */
     override fun draw() {
         background(15f, 35f, 51f)
 
@@ -69,7 +83,8 @@ class AnimationsUi : PApplet() {
         textSize(30f)
         text("Animations", 120f, 50f)
         textSize(12f)
-        text("v18.7.28.2", 20f, 380f)
+        text("v${Utils.getVersion()} | Processing Core 3.4 | ControlP5 2.2.6", 10f, 375f)
+        text("Copyright 2018 ATVG-Studios | Licensed under MIT", 10f, 390f)
     }
 
 }
