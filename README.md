@@ -3,8 +3,8 @@ This Application called `Animations` contains cool 2D Animations that have been 
 All these Animations have been rewritten in Kotlin/JVM. For the Animations I used the Processing Core Library.
 
 # Processing Core
-The Processing Core I used is the one shipped with Processing 3.3.7 on Ubuntu.  
-The Core is not included in this Repository, only referenced in the `.idea/libraries/KotlinJavaRuntime.xml` file as `processing-337-core.jar`.
+The Processing Core I used is the one shipped with Processing 3.4 on Ubuntu.  
+The Core is not included in this Repository, only referenced in the `.idea/libraries/KotlinJavaRuntime.xml` file as `processing-340-core.jar`.
 
 # License
 The Original content belongs to `Daniel Shiffman` (https://shiffman.net/).  
