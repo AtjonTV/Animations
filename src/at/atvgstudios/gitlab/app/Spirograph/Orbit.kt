@@ -32,6 +32,10 @@ class Orbit {
         angle = -PApplet.PI/2f
     }
 
+    /**
+     * Create a new Child
+     * @see Orbit
+     */
     fun addChild(): Orbit {
         val newr = r / 3f
         val newx = x + r + newr
@@ -40,6 +44,9 @@ class Orbit {
         return child as Orbit
     }
 
+    /**
+     * Update
+     */
     fun update() {
         if (parent != null) {
             angle += speed
@@ -49,6 +56,9 @@ class Orbit {
         }
     }
 
+    /**
+     * Draw to screen
+     */
     fun show()
     {
         app.stroke(255,100f)

@@ -1,5 +1,6 @@
 package at.atvgstudios.gitlab
 
+import at.atvgstudios.gitlab.app.ApproxPi.ApproxPi
 import at.atvgstudios.gitlab.app.DPendulum.DPendulum
 import at.atvgstudios.gitlab.app.Fern.Fern
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
@@ -77,6 +78,12 @@ class AnimationsUi : PApplet() {
                 .setSize(110, 40)
                 .onClick {
                     runSketch(arrayOf("Spirograph"), Spirograph())
+                }
+        control.addButton("ApproxPi")
+                .setPosition(145f, 200f)
+                .setSize(110, 40)
+                .onClick {
+                    runSketch(arrayOf("ApproxPi"), ApproxPi())
                 }
     }
 

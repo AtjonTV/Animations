@@ -21,6 +21,13 @@ class Spirograph : PApplet() {
      */
     override fun settings() {
         size(600,600)
+    }
+
+    /**
+     * Create Orbits
+     * @see Orbit
+     */
+    override fun setup() {
         rootOrbit = Orbit(this,width/2f,height/2f,width/4f,0)
         var next = rootOrbit
         for(i in 0 until 10)
@@ -28,10 +35,11 @@ class Spirograph : PApplet() {
         lastOrbit = next
     }
 
-    override fun setup() {
-
-    }
-
+    /**
+     * Update and Draw Orbits; Draw Path
+     * @see Orbit.update
+     * @see Orbit.show
+     */
     override fun draw() {
         background(51)
 

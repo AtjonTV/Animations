@@ -1,5 +1,6 @@
 package at.atvgstudios.gitlab
 
+import at.atvgstudios.gitlab.app.ApproxPi.ApproxPi
 import at.atvgstudios.gitlab.app.DPendulum.DPendulum
 import at.atvgstudios.gitlab.app.Fern.Fern
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
@@ -61,6 +62,9 @@ fun launch(name: String) {
         "Spirograph" -> {
             PApplet.runSketch(arrayOf("Spirograph"), Spirograph())
         }
+        "ApproxPi" -> {
+            PApplet.runSketch(arrayOf("ApproxPi"), ApproxPi())
+        }
         "-ui" -> {
             PApplet.runSketch(arrayOf("AnimationsUi"), AnimationsUi())
         }
@@ -80,7 +84,7 @@ fun printInfo() {
     println("+----------------------------------+")
     println("|  2D Animations using Processing  |")
     println("+----------------------------------+")
-    println("| This application contains 7      |")
+    println("| This application contains 8      |")
     println("| animations that have been        |")
     println("| translated from Java to Kotlin   |")
     println("+----------------------------------+")
@@ -117,5 +121,6 @@ fun printAnims() {
     println("| Fern        |")
     println("| RSpirograph |")
     println("| Spirograph  |")
+    println("| ApproxPi    |")
     println("+-------------+")
 }

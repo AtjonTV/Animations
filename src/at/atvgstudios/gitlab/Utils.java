@@ -18,7 +18,7 @@ public class Utils {
      * @return the version
      */
     public static String getVersion() {
-        return "18.7.29.2";
+        return "18.7.29.3";
     }
 
     /**
