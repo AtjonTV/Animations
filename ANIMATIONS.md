@@ -9,9 +9,9 @@
 7. [Spirograph](https://www.youtube.com/watch?v=0dwJ-bkJwDI)
 8. [ApproxPi](https://www.youtube.com/watch?v=5cNnf_7e92Q)
 9. [SolarSystem](http://thecodingtrain.com/CodingChallenges/007-solarsystemgenerator.html) (2D only)
+10. [Fire Effect](https://www.youtube.com/watch?v=X0kjv0MozuY)
 
 # Implementations under development
 
-1. [Fire Effect](https://www.youtube.com/watch?v=X0kjv0MozuY)
-2. [Water Ripple](https://www.youtube.com/watch?v=BZUdGqeOD0w) (2D only)
-3. [Circle Packing](https://www.youtube.com/watch?v=QHEQuoIKgNE)
+1. [Water Ripple](https://www.youtube.com/watch?v=BZUdGqeOD0w) (2D only)
+2. [Circle Packing](https://www.youtube.com/watch?v=QHEQuoIKgNE)

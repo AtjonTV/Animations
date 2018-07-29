@@ -3,6 +3,7 @@ package at.atvgstudios.gitlab
 import at.atvgstudios.gitlab.app.ApproxPi.ApproxPi
 import at.atvgstudios.gitlab.app.DPendulum.DPendulum
 import at.atvgstudios.gitlab.app.Fern.Fern
+import at.atvgstudios.gitlab.app.FireEffect.FireEffect
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
 import at.atvgstudios.gitlab.app.PurpleRain.PurpleRain
 import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
@@ -69,7 +70,7 @@ class AnimationsUi : PApplet() {
                     runSketch(arrayOf("Lorenz"), Lorenz())
                 }
         control.addButton("Spirograph 1")
-                .setPosition(260f, 140f)
+                .setPosition(250f, 140f)
                 .setSize(110, 40)
                 .onClick {
                     runSketch(arrayOf("RSpirograph"), RSpirograph(true))
@@ -91,6 +92,12 @@ class AnimationsUi : PApplet() {
                 .setSize(110, 40)
                 .onClick {
                     runSketch(arrayOf("SolarSystem"), SolarSystem())
+                }
+        control.addButton("FireEffect")
+                .setPosition(20f, 260f)
+                .setSize(110, 40)
+                .onClick {
+                    runSketch(arrayOf("FireEffect"), FireEffect())
                 }
     }
 

@@ -3,6 +3,7 @@ package at.atvgstudios.gitlab
 import at.atvgstudios.gitlab.app.ApproxPi.ApproxPi
 import at.atvgstudios.gitlab.app.DPendulum.DPendulum
 import at.atvgstudios.gitlab.app.Fern.Fern
+import at.atvgstudios.gitlab.app.FireEffect.FireEffect
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
 import at.atvgstudios.gitlab.app.PurpleRain.PurpleRain
 import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
@@ -69,6 +70,9 @@ fun launch(name: String) {
         "SolarSystem" -> {
             PApplet.runSketch(arrayOf("SolarSystem"), SolarSystem())
         }
+        "FireEffect" -> {
+            PApplet.runSketch(arrayOf("FireEffect"), FireEffect())
+        }
         "-ui" -> {
             PApplet.runSketch(arrayOf("AnimationsUi"), AnimationsUi())
         }
@@ -88,7 +92,7 @@ fun printInfo() {
     println("+----------------------------------+")
     println("|  2D Animations using Processing  |")
     println("+----------------------------------+")
-    println("| This application contains 6      |")
+    println("| This application contains 10     |")
     println("| animations that have been        |")
     println("| translated from Java to Kotlin   |")
     println("+----------------------------------+")
@@ -127,5 +131,6 @@ fun printAnims() {
     println("| Spirograph  |")
     println("| ApproxPi    |")
     println("| SolarSystem |")
+    println("| FireEffect  |")
     println("+-------------+")
 }
