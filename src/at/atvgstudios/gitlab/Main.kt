@@ -6,6 +6,7 @@ import at.atvgstudios.gitlab.app.Fern.Fern
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
 import at.atvgstudios.gitlab.app.PurpleRain.PurpleRain
 import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
+import at.atvgstudios.gitlab.app.SolarSystem.SolarSystem
 import at.atvgstudios.gitlab.app.Spirograph.Spirograph
 import at.atvgstudios.gitlab.app.Starfield.Starfield
 import processing.core.PApplet
@@ -65,6 +66,9 @@ fun launch(name: String) {
         "ApproxPi" -> {
             PApplet.runSketch(arrayOf("ApproxPi"), ApproxPi())
         }
+        "SolarSystem" -> {
+            PApplet.runSketch(arrayOf("SolarSystem"), SolarSystem())
+        }
         "-ui" -> {
             PApplet.runSketch(arrayOf("AnimationsUi"), AnimationsUi())
         }
@@ -84,7 +88,7 @@ fun printInfo() {
     println("+----------------------------------+")
     println("|  2D Animations using Processing  |")
     println("+----------------------------------+")
-    println("| This application contains 8      |")
+    println("| This application contains 6      |")
     println("| animations that have been        |")
     println("| translated from Java to Kotlin   |")
     println("+----------------------------------+")
@@ -122,5 +126,6 @@ fun printAnims() {
     println("| RSpirograph |")
     println("| Spirograph  |")
     println("| ApproxPi    |")
+    println("| SolarSystem |")
     println("+-------------+")
 }

@@ -6,6 +6,7 @@ import at.atvgstudios.gitlab.app.Fern.Fern
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
 import at.atvgstudios.gitlab.app.PurpleRain.PurpleRain
 import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
+import at.atvgstudios.gitlab.app.SolarSystem.SolarSystem
 import at.atvgstudios.gitlab.app.Spirograph.Spirograph
 import at.atvgstudios.gitlab.app.Starfield.Starfield
 import controlP5.ControlP5
@@ -81,9 +82,15 @@ class AnimationsUi : PApplet() {
                 }
         control.addButton("ApproxPi")
                 .setPosition(145f, 200f)
-                .setSize(110, 40)
+                .setSize(90, 40)
                 .onClick {
                     runSketch(arrayOf("ApproxPi"), ApproxPi())
+                }
+        control.addButton("SolarSystem")
+                .setPosition(250f, 200f)
+                .setSize(110, 40)
+                .onClick {
+                    runSketch(arrayOf("SolarSystem"), SolarSystem())
                 }
     }
 
