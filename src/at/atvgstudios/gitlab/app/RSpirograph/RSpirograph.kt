@@ -5,7 +5,7 @@ import processing.core.PVector
 import java.util.*
 
 /**
- * Spirograph Animation
+ * Random Spirograph Animation
  * @author Thomas Obernosterer
  * @since 18.7.28
  */
@@ -18,7 +18,7 @@ class RSpirograph(rnd: Boolean) : PApplet() {
 
     init {
         if (rnd) {
-            var rand = Random()
+            val rand = Random()
             type = rand.nextInt(8) + 2f
         }
     }

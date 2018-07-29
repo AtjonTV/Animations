@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31e5a15a-2c9a-4fe7-b084-099d29983457" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Animations_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Animations_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Processing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Processing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Spirograph/Orbit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Spirograph/Spirograph.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Animations/Animations.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Animations/Animations.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/AnimationsUi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/AnimationsUi.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/DPendulum/DPendulum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/DPendulum/DPendulum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Fern/Fern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Fern/Fern.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Lorenz/Lorenz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Lorenz/Lorenz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/PurpleRain/Drop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/PurpleRain/Drop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/PurpleRain/PurpleRain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/PurpleRain/PurpleRain.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/Orbit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/Orbit.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/RSpirograph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/RSpirograph.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Star.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Star.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Starfield.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Starfield.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,25 +53,27 @@
     <session id="-605071896">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="235" />
-          <entry key="kt" value="6722" />
+          <entry key="java" value="237" />
+          <entry key="kt" value="8095" />
           <entry key="md" value="24" />
           <entry key="txt" value="133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="235" />
-          <entry key="Kotlin" value="6722" />
+          <entry key="JAVA" value="237" />
+          <entry key="Kotlin" value="8095" />
           <entry key="Markdown" value="24" />
           <entry key="PLAIN_TEXT" value="133" />
         </counts>
@@ -89,8 +82,8 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="2" />
-          <entry key="kt" value="27" />
+          <entry key="java" value="3" />
+          <entry key="kt" value="37" />
           <entry key="md" value="2" />
           <entry key="xml" value="2" />
         </counts>
@@ -98,8 +91,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="2" />
-          <entry key="Kotlin" value="27" />
+          <entry key="JAVA" value="3" />
+          <entry key="Kotlin" value="37" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="XML" value="2" />
@@ -109,11 +102,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Starfield.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/AnimationsUi.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="138">
+              <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+              <folding>
+                <element signature="e#31#425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1725">
+              <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +141,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -152,21 +169,21 @@
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Terrain.kt" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Pong/Pong.kt" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Pendulum/Pendulum.kt" />
-        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Spirograph/Orbit.kt" />
-        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Spirograph/Spirograph.kt" />
         <option value="$PROJECT_DIR$/ANIMATIONS.md" />
-        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/AnimationsUi.kt" />
-        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/Main.kt" />
-        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/Utils.java" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/PurpleRain/PurpleRain.kt" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/PurpleRain/Drop.kt" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Star.kt" />
-        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/RSpirograph.kt" />
-        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/Orbit.kt" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Lorenz/Lorenz.kt" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Fern/Fern.kt" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/DPendulum/DPendulum.kt" />
         <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Starfield.kt" />
+        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/Orbit.kt" />
+        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/Utils.java" />
+        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Spirograph/Orbit.kt" />
+        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Spirograph/Spirograph.kt" />
+        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/AnimationsUi.kt" />
+        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/RSpirograph.kt" />
+        <option value="$PROJECT_DIR$/src/at/atvgstudios/gitlab/Main.kt" />
       </list>
     </option>
   </component>
@@ -181,8 +198,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="960" />
-    <option name="y" value="30" />
-    <option name="width" value="950" />
+    <option name="y" value="25" />
+    <option name="width" value="960" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -194,6 +211,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -231,6 +250,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gitlab" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="RSpirograph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Animations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Animations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gitlab" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Spirograph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Animations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Animations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gitlab" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Starfield" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,20 +282,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532820018159" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532866531474" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sdk/processing/processing-340-core.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sdk/java-processing" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -365,6 +398,8 @@
       <workItem from="1532642932747" duration="603000" />
       <workItem from="1532723226728" duration="7700000" />
       <workItem from="1532808073522" duration="11940000" />
+      <workItem from="1532830403108" duration="773000" />
+      <workItem from="1532865055274" duration="1583000" />
     </task>
     <task id="LOCAL-00001" summary="Added UI | Version 18.7.28.2&#10;&#10;This Version brings in a UI, this UI helps to start animations easier.">
       <created>1532815249655</created>
@@ -377,7 +412,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33386000" />
+    <option name="totallyTimeSpent" value="35742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,10 +424,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="30" width="950" height="1055" extended-state="4" />
+    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2615894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2557377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,7 +437,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32826087" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32795697" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32795697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,9 +447,6 @@
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32795697" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32903227" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,6 +457,9 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Flutter Inspector" order="10" />
+      <window_info anchor="right" id="Flutter Outline" order="11" />
+      <window_info anchor="right" id="SciView" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,16 +501,6 @@
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/AnimationsUi.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#31#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/PurpleRain/Drop.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -487,37 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/RSpirograph.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/Orbit.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -552,7 +546,65 @@
     <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Starfield/Starfield.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Spirograph/Orbit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/Orbit.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-491">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/Spirograph/Spirograph.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="e#46#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/app/RSpirograph/RSpirograph.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/AnimationsUi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+          <folding>
+            <element signature="e#31#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/atvgstudios/gitlab/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -587,7 +639,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6 interpreter library</last-edited>
+          <last-edited>ProcessingLib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

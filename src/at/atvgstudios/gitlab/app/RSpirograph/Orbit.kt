@@ -4,6 +4,11 @@ import processing.core.PApplet
 import kotlin.math.cos
 import kotlin.math.sin
 
+/**
+ * Random Spirograph Animation
+ * @author Thomas Obernosterer
+ * @since 18.7.28
+ */
 class Orbit {
     private var app: PApplet
     internal var x = 0f

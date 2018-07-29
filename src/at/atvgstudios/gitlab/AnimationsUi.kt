@@ -5,6 +5,7 @@ import at.atvgstudios.gitlab.app.Fern.Fern
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
 import at.atvgstudios.gitlab.app.PurpleRain.PurpleRain
 import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
+import at.atvgstudios.gitlab.app.Spirograph.Spirograph
 import at.atvgstudios.gitlab.app.Starfield.Starfield
 import controlP5.ControlP5
 import processing.core.PApplet
@@ -70,6 +71,12 @@ class AnimationsUi : PApplet() {
                 .setSize(110, 40)
                 .onClick {
                     runSketch(arrayOf("RSpirograph"), RSpirograph(true))
+                }
+        control.addButton("Spirograph 2")
+                .setPosition(20f, 200f)
+                .setSize(110, 40)
+                .onClick {
+                    runSketch(arrayOf("Spirograph"), Spirograph())
                 }
     }
 

@@ -5,6 +5,7 @@ import at.atvgstudios.gitlab.app.Fern.Fern
 import at.atvgstudios.gitlab.app.Lorenz.Lorenz
 import at.atvgstudios.gitlab.app.PurpleRain.PurpleRain
 import at.atvgstudios.gitlab.app.RSpirograph.RSpirograph
+import at.atvgstudios.gitlab.app.Spirograph.Spirograph
 import at.atvgstudios.gitlab.app.Starfield.Starfield
 import processing.core.PApplet
 
@@ -57,6 +58,9 @@ fun launch(name: String) {
         "RSpirograph" -> {
             PApplet.runSketch(arrayOf("Spirograph"), RSpirograph(true))
         }
+        "Spirograph" -> {
+            PApplet.runSketch(arrayOf("Spirograph"), Spirograph())
+        }
         "-ui" -> {
             PApplet.runSketch(arrayOf("AnimationsUi"), AnimationsUi())
         }
@@ -76,7 +80,7 @@ fun printInfo() {
     println("+----------------------------------+")
     println("|  2D Animations using Processing  |")
     println("+----------------------------------+")
-    println("| This application contains 6      |")
+    println("| This application contains 7      |")
     println("| animations that have been        |")
     println("| translated from Java to Kotlin   |")
     println("+----------------------------------+")
@@ -112,5 +116,6 @@ fun printAnims() {
     println("| DPendulum   |")
     println("| Fern        |")
     println("| RSpirograph |")
+    println("| Spirograph  |")
     println("+-------------+")
 }
